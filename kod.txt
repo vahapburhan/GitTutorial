@@ -1,0 +1,7 @@
+Adým 2: Uzak Sunucuya Dosya Gönderilmesi
+
+Bilgisayarýnýzýn herhangi bir yerinde bir klasör oluþturun. Ben masa üstünde GitTutorial adýnda bir klasör oluþturup içine bu yazýnýn Markdown halini ekliyorum. Siz de istediðiniz bir þeyi ekleyebilirsiniz.
+Ardýndan terminalden bu klasör içine girin ve git init komutunu koþturun. Bu komut bu klasör üzerinde Git’in hakimiyet kurabilmesine imkan tanýyacak.
+Ardýndan git add . komutunu koþturun. Bu komut en sondaki . vasýtasý ile klasör içindeki tüm dosyalarý Stage aýndaki bir bölgeye alacak. Stage demek henüz mesajý tanýmlanmamýþ ancak uzak sunucuya gönderilmek için seçilmiþ dosyalar demektir aslýnda.
+Ardýndan git commit -m “Ýlk Commit” komutunu koþturalým. Bu komut az önce Stage kýsmýna alýnmýþ dosyalarýn tümü için bir mesaj belirleyecek ve Head bölgesine taþýyacak. Týrnaklar arasýna duruma göre istediðinizi yazabilirsiniz.
+Yukarýdaki iþlemler localimiz üzerindeki iþlemlerdi. Þimdi bu reponun uzak sunucuya atýlmasýna sýra geldi.
